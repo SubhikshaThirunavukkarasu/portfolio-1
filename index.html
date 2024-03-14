@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="navbar" id="myNavbar">
+  <a class="navbar-toggle" href="javascript:void(0);" onclick="toggleNavMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <a href="#home" class="navbar-item">HOME</a>
+  <a href="#about" class="navbar-item">ABOUT</a>
+  <a href="#portfolio" class="navbar-item">EDUCATION</a>
+  <a href="#family" class="navbar-item">FAMILY</a>
+  <a href="#contact" class="navbar-item">CONTACT</a>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="navbar-mobile">
+  <a href="#about" class="navbar-item" onclick="toggleNavMenu()">ABOUT</a>
+  <a href="#education" class="navbar-item" onclick="toggleNavMenu()">EDUCATION</a>
+  <a href="#family" class="navbar-item" onclick="toggleNavMenu()">FAMILY</a>
+  <a href="#contact" class="navbar-item" onclick="toggleNavMenu()">CONTACT</a>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="parallax bgimg-1" id="home">
+  <div class="parallax-text">
+    <span class="logo-text">HEY <span class="logo-text-hide-small">SUBHIKSHA</span> HERE</span>
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="section" id="about">
+  <div class="section-content">
+    <h3 class="section-heading">ABOUT ME</h3>
+    <p class="section-description">Graduate Trainee @Psiog Digital</p>
+    <p class="section-description">Hlo, Welcome to my Website, you can call me subhii. Thank You for taking your time to know about me. I am Subhiksha Thirunavukkarasu, Currently doing my internship as a Graduate Trainee @ Psiog Digital.</p>
+    <div class="row">
+      <div class="column column-6">
+        <p class="section-subheading">Hlooo its me Subhii</p>
+        <img src="20240223_185137.jpg" alt="Photo of Me" class="section-image">
+      </div>
+      <div class="column column-6">
+        <p class="section-description">I am Currently pursuing my Bachelor of Engineering in Sri Krishna College Of Technology. I am an Electronics and Communication Engineer, well not yet..almost. I hope my website gives you a glimpse of my beautiful, adventurous, fascinating time on earth. Let the story begin. Ok what will u name my storyy, take a look and don't forget to post at the end of my site.</p>
+      </div>
+    </div>
+    <p class="skills-title">I'm really good at</p>
+    <div class="skill">
+      <p class="skill-name">Communication</p>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 90%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p class="skill-name">Web Design</p>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 80%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p class="skill-name">Programming</p>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 70%;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Hobbies Section -->
+
+    <p class="section-heading">MY HOBBIES</p>
+    <div class="hobby-container">
+      <div class="hobby">
+        <span class="fa fa-music"></span><br>
+        Music
+      </div>
+      <div class="hobby">
+        <span class="fa fa-pencil-square-o"></span><br>
+        Song Writing
+      </div>
+      <div class="hobby">
+        <span class="fa fa-microphone"></span><br>
+        Singing
+      </div>
+      <div class="hobby">
+        <span class="fa fa-paint-brush"></span><br>
+        Drawing
+      </div>
+    </div>
+  
+  
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="parallax-2 bgimg-3 "id="portfolio">
+    <div class="parallax-2-text">
+      <span class="paralla-2-heading">EDUCATION</span>
+    </div>
+  </div>
+
+<!-- Portfolio Section -->
+<div class="section" id="education">
+  <div class="section-content">
+    <h3 class="section-heading">MY LEARNING JOURNEY</h3>
+    <div class="row">
+      <div class="column column-6">
+        <p></p> <i class="section-subheading fa fa-graduation-cap"></i>Under Graduation</p>
+        <img src="college.jpg" alt="Under Graduation Photo" class="section-image">
+      </div>
+      <div class="column column-6">
+        <p class="section-description">I am doing my Under Graduation, BE Electronics and Communication Engineering in SRI KRISHNA COLLEGE OF TECHNOLOGY.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column column-6">
+        <p><i class="section-subheading fa fa-book"></iclass></i>Grade XII</p>
+        <img src="school 1.jpg" alt="Grade XII Photo" class="section-image">
+      </div>
+      <div class="column column-6">
+        <p class="section-description">I did my high school in SRI LATHANGI VIDHYA MANDIR. I successfully completed my 12th grade with 83.6%.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column column-6">
+        <p><i class="section-subheading fa fa-book"></i>Grade X</p>
+        <img src="school 2.png" alt="Grade X Photo" class="section-image">
+      </div>
+      <div class="column column-6">
+        <p class="section-description">I did my middle school in SRI LATHANGI VIDHYA MANDIR. I successfully completed my 10th grade with 95.4%.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+    <div class="section-content">
+      <h3 class="section-heading">MEMORIES</h3>
+      <p class="section-description"><em>Here are some of my memories from college</em></p>
+<div class="grid-container">
+    <div class="grid-item">
+      <img src="IMG-20230715-WA0005.jpg" alt="Image 1" class="grid-image">
+    </div>
+    <div class="grid-item">
+      <img src="IMG-20230214-WA0027.jpg" alt="Image 2" class="grid-image">
+    </div>
+    <div class="grid-item">
+      <img src="IMG-20230810-WA0081.jpg" alt="Image 3" class="grid-image">
+    </div>
+    <div class="grid-item">
+      <img src="IMG-20230113-WA0058.jpg" alt="Image 4" class="grid-image">
+    </div>
+    <div class="grid-item">
+      <img src="IMG-20230818-WA0004.jpg" alt="Image 5" class="grid-image">
+    </div>
+    <div class="grid-item">
+      <img src="IMG-20230210-WA0016.jpg" alt="Image 6" class="grid-image">
+    </div>
+    <div class="grid-item">
+      <img src="IMG-20230330-WA0012.jpg" alt="Image 7" class="grid-image">
+    </div>
+    <div class="grid-item">
+      <img src="IMG-20230922-WA0001.jpg" alt="Image 8" class="grid-image">
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div id="modal01" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <img id="img01" style="width:100%">
+    </div>
+  </div>
+
+<!-- Family Section -->
+<div class="section bg-gray" id="family">
+  <div class="section-content">
+    <h3 class="section-heading">FAMILY</h3>
+    <div class="row">
+      <div class="column column-6">
+        <p class="section-subheading">Family</p>
+        <img src="20231112_132218.jpg" alt="Family Photo" class="section-image">
+      </div>
+      <div class="column column-6">
+        <p class="section-description">My family tree is quite small. We are a family of 4 people me, my mom, my dad, and my grandma. My father's name is Thirunavukkarasu and my mother's name is Yoganayaki. My father is running a Transport Business and my mother is a Teacher. I am the only child in my family. I have two grandmothers who are very supportive and funny.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Third Parallax Image with Contact Text -->
+<div class="parallax-2 bgimg-3 "id="contact">
+  <div class="parallax-2-text">
+    <span class="paralla-2-heading">CONTACT</span>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="section" id="contact">
+  <div class="section-content">
+    <h3 class="section-heading">WHERE I WORK</h3>
+    <p class="section-description">I'd love your feedback!</p>
+    <div class="row">
+      <div class="column column-4">
+        <img src="psiog logo.png" alt="Office Photo" class="section-image">
+      </div>
+      <div class="column column-8">
+        <div class="contact-info">
+          <i class="fa fa-map-marker fa-fw contact-icon contact-text"></i>Chennai, TN>
+        </div>
+        <div class="contact-info">
+          <i class="fa fa-phone fa-fw contact-icon contact-text"></i> Phone: +91 9867432128>
+        </div>
+        <div class="contact-info">
+          <i class="fa fa-envelope fa-fw contact-icon contact-text"></i>Email: mail@mail.com>
+        </div>
+        <p class="section-description">Swing by for a cup of coffee, or leave me a note:</p>
+<form id="feedback-form" action="https://docs.google.com/spreadsheets/d/1aSQI-6E-ux_hmGlXcOJ6zZ2HpLnL8T1OKSRRwM1i41U/edit#gid=0" method="POST">
+  <div class="row">
+    <input class="input-field column-6" type="text" placeholder="Name" required name="Name">
+    <input class="input-field column-6" type="email" placeholder="Email" required name="Email">
+  </div>
+  <input class="input-field" type="text" placeholder="Message" required name="Message">
+  <button class="button" type="submit">SEND MESSAGE</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <a href="#home" class="footer-link">To the top</a>
+    <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank" class="footer-icon"><i class="fa fa-facebook-official"></i></a>
+      <a href="https://www.instagram.com" target="_blank" class="footer-icon"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.snapchat.com" target="_blank" class="footer-icon"><i class="fa fa-snapchat"></i></a>
+      <a href="https://www.pinterest.com" target="_blank" class="footer-icon"><i class="fa fa-pinterest-p"></i></a>
+      <a href="https://www.twitter.com" target="_blank" class="footer-icon"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/subhiksha-t-335b7623a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer-icon"><i class="fa fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+<script src="functions.js"></script>
+</body>
+</html>
+
